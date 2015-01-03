@@ -1,0 +1,986 @@
+
+@CHARSET "ISO-8859-1";
+
+/*-------------- Common (layout.css) ------------------*/
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: calibri;
+	font-size: 1em;
+}
+
+#content{
+	min-widht:90%;
+	margin: auto;
+	
+}
+#status{
+	width:150px;
+	 align:left;
+	max-width:150px;
+}
+strong {
+	font-size: 1.5em;
+}
+
+.heading {
+	color: #000;
+	width: 300px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.ui-dialog{
+  font-weight: normal;
+  font-size: 1em;
+  width: 500px;
+}
+
+.invalid {
+	border: 2px solid #D24726;
+}
+
+
+
+img.btn_close {
+	float: right;
+}
+
+iframe {
+	width:100%;
+	margin: 0;
+	border: none;
+	padding: 0;
+	height:90%;
+	max-height: 90%;
+	border-radius:6px;
+}
+
+.login-result {
+	color: red;
+}
+
+#login-1 {
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 1.2em;
+	border: 2px groove #000;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.span {
+	color:cadetblue;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 13px;
+    left:0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px greenyellow; 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgb(21,92,103); 
+    -webkit-box-shadow: inset 0 0 6px rgb(32,126,134); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+        background: cadetblue; 
+}
+/*----------------------------Accepted.jsp----------------  NO CSS ------------------addFiles.jsp----------------------------*/
+
+/*--------------------Billing.jsp & ProcessOrEdit.jsp-----------------------*/
+
+.order-th {
+	padding-left:5px;
+}
+
+.order-td {
+	height:5px;
+}
+
+.style-th {
+	margin-left:5px;
+}
+.style-number {
+	max-width: 100px;
+}
+
+.product {
+	width:170px;
+}
+
+.quantity {
+	width:125px;
+	margin-left:5px;
+}
+
+.orderList {
+	background-color:#F0F0F0;
+	border-radius:5px;
+	width:360px;
+}
+
+.orderlist-1 {
+	width:172px;
+}
+
+.orderlist-2 {
+	width:60px;
+}
+
+.arrow {
+	height:30px;
+	width:30px;
+	float:right;
+}
+.arrow1 {
+	height:30px;
+	width:30px;
+	float:right;
+}
+.arrow-diff {
+	height:30px;
+	width:30px;
+	float:right;
+	margin-left:30px;
+}
+
+.table {
+	width:100%;
+}
+
+.button {
+	position:relative;
+	margin-top:40px;
+}
+
+/*-------------------------------- Billing.jsp --------------------------------*/
+
+.quan {
+	border-radius:5px;
+	width:40px;
+	margin-left:4px;
+}
+
+.close-button {
+	float:right;
+	float:bottom;
+	padding-left:5px;
+}
+
+td,th {
+	text-align:left;
+	margin-left:5px;
+	margin-right:5px;
+	color: rgb(25,75,79);
+}
+
+.tr {
+	text-align:left;
+}
+
+.no-close .ui-dialog-titlebar-close { /*----------- DatePick.jsp ----------------*/
+	display: none
+}
+
+/*------------------BillSettings.jsp--------------------------*/
+
+.table-BillSettings {
+	width:600px;
+	padding-left:20px;
+}
+
+.table-td-1 {
+	 height:10px;
+}
+
+.table-input-1 {
+	width:250px;
+	border-radius:4px; 
+	padding-left:6px;
+}
+
+.table-input-2 {
+	width:250px;
+	border-radius:4px;
+	padding-left:6px;
+	margin-top:4px;
+}
+
+.table-input-3 {
+	width:250px;
+	border-radius:4px;
+	padding-left:6px;
+	margin-top:4px;
+	margin-bottom:10px;
+}
+
+.footer1 {
+	width:250px;
+	border-radius:4px;
+	padding-left:6px;
+	margin-top:10px;
+}
+
+.footer2 {
+	width:250px;
+	border-radius:4px;
+	padding-left:6px;
+	margin-top:4px;
+}
+
+.submit-button {
+	border-radius:3px;
+	margin-left:20px;
+	margin-top:15px;
+	background-color:cadetblue;
+	color:white;
+}
+
+/*----------------------------ChangeSettings.jsp----------------------------
+
+					-----------------NO CSS------------------
+
+----------------------------ChildActivities.jsp----------------------------*/
+
+/*----------------------Dashboard.jsp---------------------------------*/
+
+
+#dropdown-dash{
+	background-color:#380606;
+}
+.container-table {
+	width:400px;
+}
+
+.hero-unit{
+	padding: 10px;
+	margin: 10px;
+}
+
+.hero-unit1{
+	padding: 10px;
+	margin: 10px;
+}
+.ui-accordion {
+	
+}
+
+.ui-accordion-header {
+	font-size: 1em;
+	font-family: calibri;
+	color:#380606;
+}
+
+.content-dash {
+
+	height: 100%;
+	margin: auto;
+	/*min-width: 1000px;*/
+	width: 100%;
+}
+
+.content-inner {
+	align:left;
+}
+
+.welcome-bar {
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.btn btn-info {
+	margin-left: 10%;
+	position: relative;
+	align:center;
+}
+
+.groups {
+	/*width:280px;*/
+	position:relative;
+	/*top-margin:10px;*/
+	text-color:black;
+}
+
+.other-groups {
+	/*overflow:scroll;*/
+	overflow-y:scroll;
+	overflow-x:scroll;
+	margin-right:-15px;
+	margin-bottom:-15px;
+	height:280px;
+	/*
+	positon:relative;
+	z-index:-1;*/
+}
+
+.userguide a
+{
+	 padding: 60px;
+  margin-bottom:30px;
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+}
+
+#create-group{
+	margin-left: 8%;
+	margin-top:-15px;
+}
+
+#send-email {
+	margin-left: 5%;
+	margin-top:-15px;
+}
+
+.left-bar {
+	float: left;
+	height: 100%;
+	margin-top: 2%;
+	opacity:0.8;
+	width:22%;
+	margin-left: 0px;
+	padding-bottom: 10px;
+}
+
+.right-bar {
+	float: right;
+	margin-top: 2%;
+	height: 90%;
+	max-height:480px;
+	width:70%;
+	margin-right:2%;
+}
+.panel {
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+}
+
+.panel-body {
+	padding: 15px;
+	background-color:#ccdddd;
+	position:relative;
+	z-index:10;
+	overflow:visible;
+}
+
+.panel-heading {
+	padding: 10px 15px;
+	font-size:1.2em;
+	border-bottom: 1px solid transparent;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	background-color:cadetblue;
+	color:black;
+}
+
+
+.panel-heading>.dropdown .dropdown-toggle {
+	color: inherit
+}
+.bar-name {  /*--------------- Message.jsp, OrderSummary.jsp, Response.jsp, wellinfonew.jsp -------------------*/
+	background-color: cadetblue;
+	border-bottom: 1px solid black;
+	display: block;
+	height: 20px;
+	padding: 10px;
+	position: relative;
+	top: 0;
+	color: #fff;
+}
+
+.all-groups {
+	padding-top: 10px;
+}
+.all-groups-new {
+	padding-top: 10px;
+}
+.group-content {
+	position: relative;
+	display: none;
+	height:210px;
+	overflow-y:hidden;
+}
+
+.group-options li{
+}
+
+.group-options:hover,.group-header:hover {
+	cursor: pointer;
+	text-decoration:none;
+}
+
+/*-----------DatePick.jsp----------NO CSS---------------*/
+
+/*-------------------Document.jsp------------------------*/
+
+.container-inner-document{
+	clear:center float:center;
+	text-align:center;
+}
+
+/*-----------Feedback.jsp----------NO CSS---------------*/
+
+/*--------------------------fileUpload.jsp----------------------*/
+
+.addnewgrp {
+	height:100px;
+	overflow:auto;
+	width:100%;
+	border:solid 1px black;
+	border-radius:3px;
+}
+
+.style-tr {
+	height:5%;
+}
+
+.deletegrp {
+	height:100px;
+	overflow:auto;
+	width:100%;
+	border:solid 1px black;
+	border-radius:3px;
+}
+
+/*-----------------------FileUploadForm.jsp----------------------*/
+
+.fileupload {
+	height:100px;
+	overflow:auto;
+	width:100%;
+	border:solid 1px black;
+	border-radius:3px;
+}
+
+/*---------------------FullOrderSummary.jsp----------------------*/
+
+.table-1 {
+
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right:5%;
+	border: 1px solid black;
+}
+
+.table-1-th,.table-1-td,.box view-all {
+	border: 1px solid black;
+	
+}
+
+.to-from-date {
+	margin-top:10px;
+	margin-left:10%;
+	background-color:cadetblue;
+}
+
+/*-----------FullReportDate.jsp----------NO CSS---------------*/
+
+/*---------------------GlobalGroupChange.jsp & Publisher.jsp---------------------*/
+
+
+.tabs{
+  font-family: calibri;
+  font-weight: normal;
+  height:100%;
+  min-height:480px;
+ 
+  
+}
+
+.options{
+  padding-bottom: 20px;
+}
+
+.edit-member-dialog *{
+	padding:2px;
+}
+
+/*--------------------- GlobalGroupChange.jsp ---------------------*/
+
+
+.mem-name, .name-col{
+	width: 17%;
+}
+
+.mem-number, .num-col{
+  width: 14%;
+}
+
+.group-name {
+	text-align:center;
+	width: 35%;
+}
+
+.group-membership {
+	width:34%;
+	text-align:center;
+}
+
+.style-td {
+	text-align: center;
+
+}
+.style-td-msg {
+	text-align: center;
+
+}
+
+.select {
+	width:80%;
+	border-radius:4px;
+}
+
+.add-del-edit {
+	text-decoration:none;
+	background:#000000;;
+	color:#ffffff;
+	border-radius:4px;
+		background-color:cadetblue;
+}
+
+.style-tr-ggc {
+	height:3px;
+}
+
+.name-col{
+  width: 35%;
+}
+
+/*--------------------- GlobalSettings.jsp & GroupActivities.jsp ---------------------*/
+
+.hero-unit-gs{
+	
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+
+/*---------------------------- GroupActivities.jsp, Upload.jsp ---------------------*/
+
+.broadcast-call-dialog *{
+	padding:2px;
+	font-size:1em;
+}
+
+/*----------------- NO CSS ---- GroupActivitiesTest.jsp ----------------------------*/
+
+/*---------------------------- InboundSMS.jsp & Inbox.jsp---------------------*/
+
+.bar-name-inbox {
+	background-color: gray;
+	border-bottom:1px solid black; 
+	display: block;
+	height: 20px;
+	padding: 10px;
+	position: relative;
+	top: 0;
+}
+
+.comments-inbox{
+	font-size: 1em;
+}
+
+/*------------- NO CSS --------- index_single_upload.jsp, Index.jsp ---------------------*/
+
+/*------IvrsMenuSettings_hindi.jsp ,IvrsMenuSettings_marathi.jsp, IvrsMenuSettings.jsp ------*/
+
+.login-ivrs {
+	width: 780px;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 1.0em;
+	color: #39836B;
+	
+	/*border: 2px groove #000;
+	border-radius: 10px;*/
+	padding: 20px;
+}
+
+.style {
+	text-decoration:none;
+	width:85;
+	height:65;
+	color:white;
+	
+	border-radius:4px;
+}
+#record{
+color:white;
+}
+
+#record1{
+color:white;
+}
+#upload{
+	color:white;
+}
+
+/*------------------ Login.jsp --------------------------*/
+
+.container-inner-1{
+	padding-left:70px;
+}
+
+.container-inner-2{
+	clear: right;
+	float: right;
+	text-align:bottom;
+	padding-top:100px;
+}
+
+.form-group-2{
+	margin-left:30px;
+	margin-top: 20px;
+}
+
+/*--------------------- Manage.jsp & new_Response.jsp ---------------------------*/
+
+.mem-name-manage, .name-col{
+  width: 50%;
+}
+
+.mem-number-manage, .num-col{
+  width: 30%;
+}
+
+/*------------------------------- Manage.jsp -------------------------------*/
+
+.checkform-table-th-1 {
+	width:10%;
+}
+
+.checkform-table-th-2 {
+	width:30%;
+}
+
+.done{
+  display: none;
+}
+
+.ui-icon ui-icon-alert {
+	float: left;
+	margin: 0 7px 20px 0;
+}
+
+.addmembersinbulk {
+	float: left;
+}
+
+.reporting td,th {
+	padding-right:5px;
+	padding-left:5px;
+}
+
+.reporting-div {
+	margin-top:10px;
+}
+
+.reporting-span {
+	color:'#888888';
+	font-size:1em;
+	margin-top:10px;
+}
+
+/*------------------------------- NewSettings.jsp -------------------------------*/
+
+.div-new-settings {
+	width:auto;
+}
+
+/*------------------------------- manipulateGroups.jsp -------------------------------*/
+
+.add-new-grp, .del-grp {
+	height:100px;
+	overflow:auto;
+	width:100%;
+	border:solid 1px black;
+	border-radius:3px;
+}
+
+/*-------------------------------------- Message.jsp -----------------------------------------*/
+
+.comments-2 {
+	width:100px;
+}
+
+.view-print {
+	text-decoration:none;
+	background:#000000;;
+	color:#ffffff;
+	border-radius:4px;
+}
+
+/*--------------------------------- namesforwell.jsp --------------------------*/
+
+
+.td {
+	border: 1px solid black;
+	font-size:1.2em;
+}
+
+.span-nfw {
+	color:'#888888';
+	font-size:1em;
+}
+
+/*------------------------------- OrderSummary.jsp -------------------------------*/
+
+.span-prod {
+	color:cadetblue;
+	font-size:1em;
+	text-align:center;
+}
+
+.box-inner {
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+}
+
+.box-inner-th {
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.2em;
+	color:cadetblue;
+}
+
+.box-inner-td {
+	 width: 200px;
+	 text-align: center;
+	 border: 2px solid black;
+}
+
+.box{
+	display: block;
+	cursor: pointer;
+	padding: 2px;
+}
+.box-os{
+	display: none;
+	cursor: pointer;
+	padding: 2px;
+}
+/*------------------------------- PrintList.jsp -------------------------------*/
+
+.table-pl {
+	margin-left:10px;
+}
+
+.table-pl-td-1 {
+	font-size:1.2em;
+	width:60px;
+}
+
+.table-pl-td-2 {
+	font-size:1.2em;
+	width:150px;
+}
+
+.table-pl-td-3 {
+	font-size:1.2em;
+}
+
+.table-pl-tr {
+	margin-top:40px;
+}
+
+/*------------------------------ ProcessOrEdit.jsp ---------------------------------*/
+
+.comments {
+	width:100px;
+	margin-left:5px;
+}
+
+.order-th-3 {
+	margin-left:3px;
+}
+
+.quan-poe {
+	border-radius:5px;
+	width:40px;
+	float:left;
+}
+
+.close-button-poe{
+	float:right;
+	float:bottom;
+}
+
+/*----------------------------- ProductForm.jsp ------------------------------------*/
+
+.addQuans {
+	border-bottom:1px solid black;
+}
+
+.add-button {
+	margin-bottom:10px;
+	background-color:cadetblue;
+	height:26px;
+	color:white;
+	text-decoration:none;
+	border-radius:2px;
+}
+
+.submitQuantity , .submitProduct{
+	 margin-top:15px;
+	 margin-bottom:20px;
+}
+
+.deleteMultiQuans , .updateMultiQuans, .update-submit, .deleteMultiProducts, .updateMultiProducts {
+	margin-top:5px;
+}
+
+.mem-number-pf,.num-col {
+	width: 30%;
+}
+
+.pro-price {
+	border-radius:4px;
+	padding-left:3px;
+	margin-top:2px;
+}
+					/*------------------------------- NO CSS ---------------------------------*/
+					
+/*---ProductPriceForm.jsp,SendSMS.jsp, Success.jsp, Test.jsp, Test2.jsp, Test3.jsp, Testing.jsp, Rejected.jsp, SendMessage.jsp, TTS.jsp ---*/
+
+
+/*----------------------------------- UpdateLoginCredential.jsp --------------------------------*/
+
+.form-group-update {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.btn btn-primary {
+	margin-left:60px;
+}
+
+.h3-update {
+	padding-left:70px;
+}
+
+/*-------------------------------- Upload.jsp ---------------------------------*/
+
+.record-upload {
+	text-decoration:none;
+	width:85;
+	height:65;
+	background:#000000;;
+	color:#ffffff;
+	border-radius:4px;
+}
+
+.display-members-1 {
+	display: none;
+	width:150%;
+}
+	
+.display-members-td-2 {
+	width:25%;
+}
+	
+.display-members-td-3 {
+	width:5px;
+}
+
+.display-members {
+	display: none;
+	width: 500px;
+}
+
+.head{
+	font-size: 1.8em;
+	color: #000;
+	margin: auto;
+	width: 400px;
+	padding-top: 20px;
+}
+
+.body-content{
+	}
+	
+/*-------------------- UploadByPhone.jsp,voiceRecord.jsp --------- NO CSS -----------------*/
+
+/*-------------------- ViewPrintBill.jsp & GroupWiseBill.jsp----------------------- */
+
+.table-vpb {
+	width: 250px;
+	/*margin-top:2%;*/
+	margin-left:auto;
+	margin-right:auto;
+	
+	page-break-inside:avoid;
+
+}
+.right-bar-bill {
+	float: right;
+	page-break-before:avoid;
+	max-width:250px;
+	
+	/*margin-top: 2%;
+	/*
+margin-right:2%;*/
+
+}
+.left-bar-bill {
+	float: left;
+	page-break-before:avoid;
+	
+	/*margin-top: 2%;
+	/*
+	margin-left: 0px;*/
+	margin-right:40px;
+	
+		
+}
+.table-vpb-right {
+	width: 250px;
+	page-break-inside:avoid;
+	
+}
+.span-vpb {
+	color:red;
+	font-size:1.5em;
+	padding-left:20%;
+}
+
+/*--------------------- wellinfonew.jsp -------------------------*/
+.view {
+	margin-top:10px;
+	height:45px;
+}
+
+.welldata {
+	position:absolute;
+	left:40%;
+	top:40%;
+}
+
+.wellinfo-span {
+	color:'#888888';
+	font-size:15px;	
+}
+
+.wellinfo-span-new {
+	color:'#888888';
+	font-size:15px;	
+}

@@ -1,0 +1,25 @@
+/* Popup for menu settings css Develeoped By Sravan Kumar */
+#blanket {
+	font-size: 1em;
+   background-color:#FFF;
+   opacity: 0.80;
+   *background:none;
+   position:absolute;
+   z-index: 9001;
+   top:0px;
+   left:0px;
+   width:100%;
+}
+
+#popUpDiv {
+	 font-size: 1em;
+    position:absolute;
+    background:url(pop-back.jpg) no-repeat;
+    width:400px;
+    height:400px;
+    border:1px solid #000;
+    z-index: 9002;
+}
+
+#popUpDiv { a position:relative; top:20px; left:20px}
+
